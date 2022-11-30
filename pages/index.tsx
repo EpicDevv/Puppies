@@ -5,8 +5,8 @@ import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
 import Instagram from "../components/InstagramGallery/Instagram";
 import Portfolio from "../components/Portfolio/Portfolio";
-import Contact from "../components/Contact/Contact";
 import Link from "next/link";
+import Contact from "../components/Contact";
 
 const Home: NextPage = () => {
   return (
