@@ -14,7 +14,7 @@ const Instagram = () => {
       <a href="https://www.instagram.com/samoyed.pups/" target="_blank">
         <p className="pb-4 underline">@samoyed.pups</p>
       </a>
-      <a href="https://www.instagram.com/samoyed.pups/" target="_blank">
+      <a href="https://www.instagram.com/samoyed.pups/" rel="noreferrer" target="_blank">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4">
         <InstagramImg socialImg={IgImg1} />
         <InstagramImg socialImg={IgImg2} />
