@@ -44,7 +44,7 @@ const Slider = ({ slides }: Props) => {
                   src={slide.image}
                   alt="/"
                   width="1440"
-                  height="600"
+                  height="900"
                   objectFit="cover"
                 />
               )}

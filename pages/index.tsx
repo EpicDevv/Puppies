@@ -6,22 +6,25 @@ import { SliderData } from "../components/Slider/SliderData";
 import Instagram from "../components/InstagramGallery/Instagram";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Contact from "../components/Contact/Contact";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Keep moving</title>
+        <title>babypups</title>
         <meta
           name="description"
           content="Created as template for future work"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://images2.minutemediacdn.com/image/upload/c_crop,w_2764,h_1554,x_0,y_744/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01ggaw7dsf4kgxw6y5zc.jpg" />
       </Head>
-      <Hero heading="Let's go jogging" message="Find your road" />
+      <Hero heading="Surprise your Family for Christmas" message="5 Puppies Born October 14th" />
+      
+        <Portfolio />
+      
       <Slider slides={SliderData} />
       <Instagram />
-      <Portfolio />
       <Contact />
     </>
   );
