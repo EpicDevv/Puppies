@@ -45,7 +45,7 @@ const Contact = () => {
           <h1 className="text-2xl font-bold text-center p-4">
             Send me a 🏃 message
           </h1>
-          <form onSubmit={() => { onSubmit; setSentContactEmail(true); }} className="max-w-[600px]">
+          <form onSubmit={(e) => { onSubmit(e); setSentContactEmail(true); }} className="max-w-[600px]">
             <div className="grid grid-cols-2 gap-2">
               <input
                 className="border placeholder-black shadow-lg p-3"
