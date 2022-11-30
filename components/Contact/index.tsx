@@ -29,7 +29,7 @@ const Contact = () => {
   const handleChange = (e: { target: { name: any; value: any; }; }) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
-  if(sentContactEmail === true) {
+  if (sentContactEmail === true) {
     return (
       <div className="flex justify-center text-center text-[20px] text-emerald-400 mb-[100px]">
         Thank you for your interest, We will contact you within one business day.
@@ -92,6 +92,9 @@ const Contact = () => {
       </div>
     );
   }
+  return (
+    <div></div>
+  )
 };
 
 export default Contact;
