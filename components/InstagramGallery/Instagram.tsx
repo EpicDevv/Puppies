@@ -10,7 +10,7 @@ import InstagramImg from "./InstagramImg";
 const Instagram = () => {
   return (
     <div className="max-w-[1240px] mx-auto text-center py-4">
-      <p className="text-2xl font-bold">Follow use on Instagram</p>
+      <p className="text-2xl font-bold">Follow us on Instagram</p>
       <a href="https://www.instagram.com/samoyed.pups/" target="_blank" rel="noreferrer">
         <p className="pb-4 underline">@samoyed.pups</p>
       </a>
