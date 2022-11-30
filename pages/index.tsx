@@ -13,11 +13,22 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>babypups</title>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <meta name="description" content="5 Samoyed Puppies for sale. Las Vegas NV" />
+        <meta property="og:title" content="Samoyed puppies" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="/puppypics/IMG_20221129_071245_184.jpg" />
+        <meta property="og:description"
+          content="5 Samoyed Puppies for sale. Las Vegas NV" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="Samoyed Puppies for sale" />
         <meta
           name="description"
-          content="Created as template for future work"
+          content="Puppies for sale"
         />
-        <link rel="icon" href="https://images2.minutemediacdn.com/image/upload/c_crop,w_2764,h_1554,x_0,y_744/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01ggaw7dsf4kgxw6y5zc.jpg" />
+        <link rel="icon" href="/puppy.png" />
       </Head>
       <Hero heading="Surprise your Family for Christmas" message="5 Puppies Born October 14th" />
       
