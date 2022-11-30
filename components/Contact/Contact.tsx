@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { send } from 'emailjs-com';
 
-const contact = () => {
+const Contact = () => {
   const [sentContactEmail, setSentContactEmail] = useState(false);
   const [toSend, setToSend] = useState({
     name: '',
@@ -94,4 +94,4 @@ const contact = () => {
   }
 };
 
-export default contact;
+export default Contact;
