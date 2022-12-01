@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -32,8 +33,10 @@ const NavBar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <div className="flex items-center">
+            <div className="min-w-[60px]">
 
-            <img className="h-[60px] -ml-[20px]" src='/puppy.png' />
+              <Image height="60px" width="60px" alt='puppy' className="h-[60px] -ml-[20px]" src='/puppy.png' />
+            </div>
             <h1 style={{ color: `${textColor}` }} className="font-bold text-[20px] cursor-pointer sm:text-4xl">
               Baby Samoyeds
             </h1>
