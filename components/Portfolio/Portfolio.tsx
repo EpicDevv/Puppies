@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <React.Fragment>
 <Link href="/puppies" passHref>
-      <div id="puppies" className="max-w-[1240px] px-[5px] cursor-pointer mx-auto  text-center">
+      <div id="puppies" className="max-w-[1240px] px-[5px] bg-emerald-200 cursor-pointer mx-auto  text-center">
         <div className="grid grid-rows-none md:grid-cols-5 p-4 gap-4">
           <div className="w-full h-full relative col-span-2 md:col-span-3 row-span-2">
             <div className="absolute top-[5px] right-[15px] z-10 text-white text-[20px] font-bold ">Percy 🙍‍♂️</div>
